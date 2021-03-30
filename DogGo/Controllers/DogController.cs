@@ -26,6 +26,19 @@ namespace DogGo.Controllers
             return View(dogs);
         }
 
+        // GET: DogController/Details/5
+        public ActionResult Details(int id)
+        {
+            Dog dog = _dogRepo.GetDogById(id);
+
+            if (dog == null)
+            {
+                return NotFound();
+            }
+
+            return View(dog);
+        }
+
         // GET: DogController/Create
         public ActionResult Create()
         {
@@ -45,6 +58,7 @@ namespace DogGo.Controllers
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return View(dog);
             }
         }
@@ -75,6 +89,7 @@ namespace DogGo.Controllers
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return View(dog);
             }
         }

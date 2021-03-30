@@ -431,3 +431,4 @@ C:\Users\info\workspace\DogGo\DogGo\obj\Debug\net5.0\Razor\Views\Dog\Index.cshtm
 C:\Users\info\workspace\DogGo\DogGo\obj\Debug\net5.0\Razor\Views\Dog\Create.cshtml.g.cs
 C:\Users\info\workspace\DogGo\DogGo\obj\Debug\net5.0\Razor\Views\Dog\Edit.cshtml.g.cs
 C:\Users\info\workspace\DogGo\DogGo\obj\Debug\net5.0\Razor\Views\Dog\Delete.cshtml.g.cs
+C:\Users\info\workspace\DogGo\DogGo\obj\Debug\net5.0\Razor\Views\Dog\Details.cshtml.g.cs
